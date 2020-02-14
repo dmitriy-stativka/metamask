@@ -1,0 +1,54 @@
+[class^="flex_col"] {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  // margin-bottom: 10px;
+  flex-wrap: wrap;
+
+  @media(min-width: $desktop) {
+    padding: 0 20px;
+    // margin-bottom: 20px;
+  }
+
+  > * {
+    width: 100%;
+  }
+}
+
+.flex {
+  
+  &_row {
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media(min-width: $tablet) {
+      margin: 0 -20px;
+    }
+  }
+
+  &_col {
+
+    &--1-2 {
+      width: 50%;
+    }
+
+    &--1-3 {
+      width: calc(99.9% / 3);
+    }
+
+    &--2-3 {
+      width: calc(100% - (100% / 3));
+    }
+
+    &-tab {
+
+      &--1-2 {
+        
+        @media(min-width: $tablet) {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

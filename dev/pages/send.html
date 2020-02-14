@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XION</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.min.css">
+</head>
+<body style="width:370px; height:615px;">
+    <div id="app-content">
+        <div class="app">
+<div class="app-header">
+    <div class="app-header__logo">
+        <img src="../../images/logo.svg" alt="">
+    </div>
+
+    <div class="app-header__indicator">
+        <div class="app-header__component">
+            Main Ethereum Network
+        </div>
+    </div>
+
+    <div class="app-header__icon">
+        <div class="app-header__icon-item">
+            
+        </div>
+    </div>
+
+</div>
+<div class="app__account">
+    <div class="app__menu-bar">
+        <div class="app__menu-bar__sidebar-button">
+            <span class="app__menu-button"></span>
+        </div>
+        <div class="app__selected-account">
+            <div class="selected-account__clickable">
+                <div class="selected-account__name">Account 1</div>
+                <div class="selected-account__address">0x093u3...Fhu</div>
+            </div>
+        </div>
+        <div class="app__menu-bar__open-in-browser"></div>
+    </div>
+    <div class="app__top-wrapper">
+        <div class="app__top-header">
+            <button class="app__top-cancel">Cancel</button>
+            <h2 class="app__top-up">Send</h2>
+        </div>
+        <div class="app__top-contain">
+            <div class="app__top-item">
+                <div class="app__top-label">From:</div>
+                <div class="app__top-aria">
+                    <span class="app__top-span">
+                        <img class="app__top-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABEVBMVEUAAADXaOfXaefWZ+bXaefXaOfWZ+bWaObVaOXPcN/WZ+bWaeYgIM8kHMglHMhvO9UkHMglHMgkHMlgNdIjHcmfUd1bM9BbM9GJR9mpVd3WaOWbTtzVaOWaTdxLLc8vH8G8W9bWaObPTl/PTFqNRcLLTFzPTVnSWZTPTVtnN8jCSmHRVofXaOckHMcwIcq9XeIkHMcyIsqfUd0oIMduMJhYK6ZfLq/JYuSbT9w9J8zBYOKbTNGjQHWlQXPPTFlKJ6/PTlq+SGOWPX08I7lWLrtZM9BXLLA8I7jGSl/PUFgkHMjMTFvQTmWHN4clHcclG8okHMjOTVnUYLzQUGuWPX4lHcfVaObWaObWaObVauTWaeaEmVLpAAAAW3RSTlMAID9vX2DP/58Q71AQz/DB/2/AwFDP0M+zvvDAgL/Z8cLf2fDD1v/B5MjQwECA8eRA0NAgStC70L/jyLvAlPDZgGq/5M/Qz+PMINDk0MFgMPDx0MnAoPHgoDBw4HihtAAAAN1JREFUeAFVzedWAjEQxfFZLGGNwhWNRWLXqCgWce29997f/0GcMSHA/9v9nZwMhZJcW3uOWuroVP/lk0hpXtXr0sG6ewoRi+j1WAIi9gH9YtoYMzAYGjJmOGUc4QeoV+Zh+bDiRse8jU/wmCSyglPTM2Kzbk5W4nHeLQhW3KKsJaqiqNRy48+VAlYZ11oOrQM12sg2t7Yj7uzu7R8Q0WEFzR25Y8aTU+AsO7/gLjPg6vqGuFvgzp+9dw/AI0lPz3hxr4Jv7h0f5KuVPlWoXKWY/vL2nVBzP7/W6jSMP6TjHM6duiv5AAAAAElFTkSuQmCC" alt="">
+                        Account 1</span>
+                    <span class="app__top-wallet">0 DAI</span>
+                    <span class="app__top-wallet">0 USD</span>
+                </div>
+            </div>
+            <div class="app__top-item">
+                <div class="app__top-label">To:
+                    <span class="app__top-label-red">Required</span>
+                </div>
+                <div class="app__top-aria app__top--select">
+                    <select placeholder="Recipient Address" class="app__top-aria-select">
+                       
+                        <option selected disabled hidden>Recipient Address</option>
+                        <option>Recipient Address 1</option>
+                        <option>Recipient Address 2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="app__top-item">
+                <div class="app__top-label">Amount:
+                    <span class="app__top-label-red">Invalid amound</span>
+                </div>
+                <div class="app__top-aria app__top-aria-arrow">
+                    <img class="app__top-aria-img" src="../../images/dai.svg" alt="">
+                    <div class="app__top-aria-dai">
+                        0.00
+                        <span class="app__top-aria-wallet">DAI</span>
+                    </div>
+                    <div class="app__top-aria-usd">
+                        0 USD
+                    </div>
+                </div>
+            </div>
+            <div class="app__top-item">
+                <div class="app__top-label">Referance:</div>
+                <div class="app__top-aria app__top-aria-type">
+                   <input placeholder="Enter referance optional..." class="app__top-aria-input" type="text">
+                </div>
+            </div>
+        </div>
+        <div class="app__order-footer">
+            <div class="app__order-footer-buttons">
+                <button class="app__button-item app__button-item-cancel">cancel</button>
+                <button class="app__button-item">CONFIRM</button>
+            </div>
+        </div>
+    </div>
+</div>
+            <aside class="app__sidebar">
+                <div class="app__menu-bar__sidebar-button app__menu-bar__sidebar-button-in app__menu-show">
+                    <span class="app__menu-button"></span>
+                </div>
+                <div class="app__sidebar_list">
+                    <div class="app__sidebar_item">
+                        <div class="app__sidebar_info">
+                            <div class="app-header__icon">
+                                <div class="app-header__icon-item"></div>
+                            </div>
+                            <div class="app__sidebar_name">Account 1</div>
+                        </div>
+                        <div class="app__sidebar_price">
+                            <span class="app__sidebar_price_item app__sidebar_price_item_dai">0 DAI</span>
+                            <span class="app__sidebar_price_item app__sidebar_price_item_dollar">$0.00 USD</span>
+                        </div>
+                    </div>
+                    <div class="app__sidebar_item">
+                        <div class="app__sidebar_info">
+                            <div class="app-header__icon">
+                                <div class="app-header__icon-item"></div>
+                            </div>
+                            <div class="app__sidebar_name">Loyalty</div>
+                        </div>
+                        <div class="app__sidebar_free">
+                            <span class="app__sidebar_package">FREE PACKAGE</span>
+                            <button class="app__sidebar_button">Active</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app__sidebar_content">
+                    <h3 class="app__sidebar_content-title">DETAILS</h3>
+                    <form class="app__sidebar_form">
+                        <div class="app__sidebar_form-item app__sidebar_form-min app__sidebar_form-item_flex">
+                            <label class="app__sidebar_form-label">Name</label>
+                            <input class="app__sidebar_input" type="text" placeholder="Name...">
+                        </div>
+                        <div class="app__sidebar_form-item app__sidebar_form-item_flex">
+                            <label class="app__sidebar_form-label">Surname</label>
+                            <input class="app__sidebar_input" type="text" placeholder="Surname...">
+                        </div>
+                        <div class="app__sidebar_form-item">
+                            <label class="app__sidebar_form-label">Email Address</label>
+                            <input class="app__sidebar_input" type="text" placeholder="Email Address...">
+                        </div>
+                        <div class="app__sidebar_form-item">
+                            <label class="app__sidebar_form-label">Phone Number</label>
+                            <input class="app__sidebar_input" type="text" placeholder="Phone Number...">
+                        </div>
+                        <div class="app__sidebar_form-item app__sidebar_form-min app__sidebar_form-item_flex">
+                            <label class="app__sidebar_form-label">Company Name</label>
+                            <input class="app__sidebar_input" type="text" placeholder="Company Name...">
+                        </div>
+                        <div class="app__sidebar_form-item app__sidebar_form-item_flex">
+                            <label class="app__sidebar_form-label">Phone Number</label>
+                            <input class="app__sidebar_input" type="text" placeholder="Phone Number...">
+                        </div>
+                        <h3 class="app__sidebar_content-title">SHIPPING ADDRESS <span class="app__sidebar_content-title-span">USA ONLY</span></h3>
+                        <div class="app__sidebar_form-item">
+                            <label class="app__sidebar_form-label">Street Address</label>
+                            <input class="app__sidebar_input" type="text" placeholder="Street Address...">
+                        </div>
+                        <div class="app__sidebar_form-item app__sidebar_form-item-last app__sidebar_form-item_flex">
+                            <label class="app__sidebar_form-label">City</label>
+                            <select class="app__sidebar_input app__sidebar_select">
+                                <option selected disabled hidden>City...</option>
+                                <option value="London">London</option>
+                                <option value="Birningem">Birningem</option>
+                                <option value="Bristol">Bristol</option>
+                            </select>
+                        </div>
+                        <div class="app__sidebar_form-item app__sidebar_form-item-last app__sidebar_form-item_flex">
+                            <label class="app__sidebar_form-label">State</label>
+                            <select class="app__sidebar_input app__sidebar_select">
+                                <option selected disabled hidden>State...</option>
+                                <option value="Manchester">Manchester</option>
+                                <option value="Birningem">Birningem</option>
+                                <option value="Bristol">Bristol</option>
+                            </select>
+                        </div>
+                        <div class="app__sidebar_form-item app__sidebar_form-zip app__sidebar_form-item_flex">
+                            <label class="app__sidebar_form-label">Zip Code</label>
+                            <input class="app__sidebar_input" type="text" placeholder="Zip Code...">
+                        </div>
+                        <div class="app__sidebar_form-button">
+                            <button class="app__button-item app__button-blue">SAVE</button>
+                        </div>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+    $('.app__menu-bar__sidebar-button').on('click', function(){
+        $('.app__sidebar').toggleClass('app__sidebar-show');
+        $('.app__account').toggleClass('app_shadow');
+    })
+
+
+    $('.app__top--input').on('click', function(){
+        $(this).toggleClass('app__top--input-active')
+    })
+
+
+
+    $('.app__top-aria-click').on('click', function(){
+        $(this).toggleClass('app__top--input-active')
+    })
+
+
+    
+</script>
+</body>
+</html>
